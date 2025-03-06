@@ -1,0 +1,6 @@
+framework module Pods_HFCrashHelper_Example {
+  umbrella header "Pods-HFCrashHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

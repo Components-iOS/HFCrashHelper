@@ -6,11 +6,7 @@
 	<dict>
 		<key>Headers/HFCrashHelper.h</key>
 		<data>
-		4K744NPE6IAgxiY1BWOS69tm+xQ=
-		</data>
-		<key>Headers/HFCrashManager.h</key>
-		<data>
-		R4x05QHxB62RIVnDwla7JclfWmA=
+		lmUYgDmNOntpuxVKVa2pjLESdRs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,14 +23,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ln9t7O0esz2YDvgS8Qt5I5ru/tjX+1aNYpyED3fJ/E=
-			</data>
-		</dict>
-		<key>Headers/HFCrashManager.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HccqHL31+PtOGnPI10Hxr2uhOL1G6vl2rNMiLFGAiZQ=
+			gIOVjEhl3yY4RuEjQSUssdIn8fqTGDM4iTDLFbddQhU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

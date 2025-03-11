@@ -7,7 +7,7 @@
 //
 
 #import "HFViewController.h"
-#import <HFCrashHelper/HFCrashManager.h>
+#import <HFCrashHelper/HFCrashHelper.h>
 
 @interface HFViewController ()
 
@@ -20,12 +20,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[HFCrashManager defaultManager] startCrashLogger];
+    [[HFCrashHelper defaultManager] startCrashLogger];
 //    [self testNoSelectorCrash];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[HFCrashManager defaultManager] showCrashVC:self];
+    [[HFCrashHelper defaultManager] showCrashVC:self];
 }
 
 #pragma mark - NSArray_Test

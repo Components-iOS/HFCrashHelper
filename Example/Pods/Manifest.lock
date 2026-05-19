@@ -1,5 +1,5 @@
 PODS:
-  - HFCrashHelper (0.1.0)
+  - HFCrashHelper (0.1.2)
 
 DEPENDENCIES:
   - HFCrashHelper (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFCrashHelper: 99033f491c4a926b39bafb91e7ae12bcff023c2d
+  HFCrashHelper: 05c1b69ec134591bf4069113e30e2c1110cc8a1f
 
-PODFILE CHECKSUM: 81b24b6b9ef74b3f0c28f97d12c25206eb697017
+PODFILE CHECKSUM: b43f63576851e571ef66cf42db61c33494f9cfc2
 
 COCOAPODS: 1.16.2

@@ -20,7 +20,7 @@ variant_for_slice()
   "HFCrashHelper.xcframework/ios-arm64")
     echo ""
     ;;
-  "HFCrashHelper.xcframework/ios-x86_64-simulator")
+  "HFCrashHelper.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   esac
@@ -32,8 +32,8 @@ archs_for_slice()
   "HFCrashHelper.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "HFCrashHelper.xcframework/ios-x86_64-simulator")
-    echo "x86_64"
+  "HFCrashHelper.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
     ;;
   esac
 }
@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../HFCrashHelper/Classes/HFCrashHelper.xcframework" "HFCrashHelper" "framework" "ios-arm64" "ios-x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../HFCrashHelper/Classes/HFCrashHelper.xcframework" "HFCrashHelper" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 
